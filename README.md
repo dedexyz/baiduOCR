@@ -1,5 +1,5 @@
 # baiduOCR
-这个使用之前一定要先设置【百度云应用的AK】和【百度云应用的SK】，不然是没有返回值的！！！<br>
+<font color='red'>这个使用之前一定要先设置【百度云应用的AK】和【百度云应用的SK】，不然是没有返回值的！！！</font><br>
 pb调用百度ai实现文字识别<br>
 #里面有两个类，一个是将图片转换成base64，另一个是将base64转换成urlencode，因为posthttp传送的数据必须是urlencode编码格式的，现在只做到返回json，下一步是解析json  //2020/09/12<br>
 wf_gettoken里面需要设置【百度云应用的AK】和【百度云应用的SK】<br>
